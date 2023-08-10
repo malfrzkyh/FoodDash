@@ -1,0 +1,40 @@
+FoodDash beta 1.1 
+- Memperbaiki bug
+- Menambah Fitur pencarian
+- Menambah Fitur Checkout
+- Menambah Fitur Reset Checkout 
+
+FoodDash beta 1.2
+- Tampilan baru AboutUs pada navbar Love
+- Logo checkout yang diperbarui dibuat lebih minimalis dan mudah ditekan
+- Menambahkan triger/notifikasi saat menambahkan item ke checkout
+- Memperbaiki beberapa bug
+- Tampilan dibuat menjadi lebih baik lagi
+- Responsive dibuat menjadi lebih enak dijangkau
+- Tampilan baru saat berhasil menyelesaikan pembayaran
+- Menambahkan beberapa animasi
+
+
+FoodDash beta 1.3
+- Memperbaiki bug notifikasi 
+- Menambahkan notifikasi ketika barang kosong
+- Memperbaiki jika barang kosong maka tidak bisa checkout lanjut
+- Menambah beberapa menu Rice, FrenchFries, Kebab, Soup, Scramble Eggs
+- Mengoptimalkan gambar agar cepat diload oleh user
+- Tampilan lebih responsive lagi
+- Logo FoodDash lebih cerah dengan warna yang segar
+- Menambah Image slider dibagian menu (untuk iklan/promo)
+
+FoodDash Final Release 
+- Menambah Video diawal masuk tampilan home
+- Memperbaiki scroll bug diawal tampilan home
+- Tampilan responsive diperbaiki lagi
+- Mengoptimalkan halaman agar cepat diload
+
+Selamat menggunakan :p
+
+Thanks to beta tester : 
+
+@hesaaji @javiermaestro @farhandt @karel @daffarafi @luckguy
+
+

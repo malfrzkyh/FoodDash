@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Caprasimo&family=Courgette&family=Lilita+One&family=Montserrat:wght@200&family=REM&family=Righteous&family=Roboto:ital@0;1&family=Ubuntu:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
+        <title>Berhasil!</title>
+</head>
+<body>
+
+        <nav class="navbar" id="navbar">
+            <div class="navbar-content">
+                <div class="logo">Food<span class="dash">Dash</span>  </div>
+                <div class="menu-toggle" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+
+        <!-- mulai -->
+        <div class="pembayaran">
+            <i class="fa-solid fa-circle-check"></i>
+            <p class="bisa">Pembayaran Berhasil! Silahkan ditunggu dikasir!</p>
+            <div class="countdown" id="countdown">
+               <p class="balik">Kembali ke halaman utama dalam <span id="timer">5</span> Detik...</p> 
+            </div>
+        </div>
+        
+
+
+         <!-- mulai -->
+
+        <footer class="footer">
+            <ul class="footer-nav">
+                <li><a href="menu.html"><i class="fa-solid fa-burger"></i></a></li>
+                <li><a href="index.html"><i class="fa-solid fa-house"></i></i></a></li>
+                <li><a href="tentang.html"><i class="fa-solid fa-heart"></i></a></li>
+            </ul>
+        </footer>
+            
+   <script>
+    // Function to redirect to "index.html" after 5 seconds
+    function redirectBack() {
+            setTimeout(function () {
+                window.location.href = 'index.html';
+            }, 1000);
+        }
+
+        // Start the countdown
+        function startCountdown() {
+            let seconds = 5;
+            const timerElement = document.getElementById('timer');
+
+            function updateTimer() {
+                timerElement.textContent = seconds;
+                seconds--;
+
+                if (seconds < 0) {
+                    clearInterval(interval);
+                    redirectBack();
+                }
+            }
+
+            updateTimer(); // Initial call to update timer immediately
+
+            const interval = setInterval(updateTimer, 1000);
+        }
+
+        // Start the countdown when the page loads
+        document.addEventListener('DOMContentLoaded', startCountdown);
+   </script>
+    <script src="js/app.js"></script>
+</body>
+</html>
